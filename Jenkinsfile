@@ -1,10 +1,6 @@
 pipeline {
   agent any
 
-  environment {
-    // optional: configure Node tool in Jenkins and put its name here
-    // NODE_BIN = "${tool 'nodejs-18'}/bin"
-  }
 
   stages {
     stage('Checkout') {
